@@ -1,0 +1,7 @@
+id: hello_world_2
+namespace: prod.tutorial
+
+tasks:
+  - id: hello
+    type: io.kestra.plugin.core.log.Log
+    message: Hello World! 
